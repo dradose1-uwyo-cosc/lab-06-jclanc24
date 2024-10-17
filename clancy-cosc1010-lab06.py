@@ -116,7 +116,7 @@ least_random_letter = None
 least_letter_mode = 2500    #2500 is selected because it is known value that the string contains 2500 characters does not consist of the same character 2500 times - initalizes the count.
 
 # Output which letter occurred the least 
-for l_key, l_value in sorted_random_characters.items(): #redefining key and value variables
+for l_key, l_value in sorted_random_characters.items(): #redefining new key and value variables
     if l_value < least_letter_mode:
         least_letter_mode = l_value
         least_random_letter = l_key
