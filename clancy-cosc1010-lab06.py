@@ -1,12 +1,13 @@
-# Your Name Here
+# John Clancy
 # UWYO COSC 1010
-# Submission Date
+# Submission Date: 11/17/24
 # Lab 06
-# Lab Section: 
+# Lab Section: 13
 # Sources, people worked with, help given to: 
-# your
-# comments
-# here
+#
+# AI search: "how to make for loop to find least frequent number."  Needed a starting point besides 0 to assign my "count" variable.
+# Lecture Notes 10/7/24 on Dictionaires
+# Lecture Notes 9/11/24 on Strings and f-Strings
 
 
 random_string = """
