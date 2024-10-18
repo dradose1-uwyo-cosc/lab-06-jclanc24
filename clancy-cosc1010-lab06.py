@@ -84,7 +84,6 @@ random_string_length = len(random_string)
 #Load all the elements into a dictionary
 #Will need to first declare a dictionary 
 # Output: each letter and its corresponding occurrence in alphabetical order
-
 random_characters = {}
 
 for letter in random_string:
@@ -122,7 +121,6 @@ for l_key, l_value in sorted_random_characters.items(): #redefining new key and 
         least_letter_mode = l_value     #temp variable needed to store data held within the loop
         least_random_letter = l_key
         # debugging line print(least_random_letter, least_letter_mode)
-
 
 most_occurred = most_random_letter
 least_occurred = least_random_letter
