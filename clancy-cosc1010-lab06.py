@@ -108,7 +108,7 @@ most_letter_mode = 0 #initalizes count
 # Output which letter occurred the most 
 for key, value in sorted_random_characters.items():
     if value > most_letter_mode:    #if value pair is greater than most_letter_mode, reassign most_mode_variable
-        most_letter_mode = value
+        most_letter_mode = value    #temp variable needed to store data held within the loop
         most_random_letter = key
     else:
      pass
@@ -119,7 +119,7 @@ least_letter_mode = 2500    #2500 is selected because it is known value that the
 # Output which letter occurred the least 
 for l_key, l_value in sorted_random_characters.items(): #redefining new key and value variables
     if l_value < least_letter_mode:
-        least_letter_mode = l_value
+        least_letter_mode = l_value     #temp variable needed to store data held within the loop
         least_random_letter = l_key
         # debugging line print(least_random_letter, least_letter_mode)
 
@@ -140,6 +140,4 @@ print("Character Frequency: ")
 for key, value in sorted_random_characters.items():
     val_percent = (value / random_string_length) * 100
     print(f"{key} : {val_percent:.2f}%")
-
-    
 print("*"*75)
