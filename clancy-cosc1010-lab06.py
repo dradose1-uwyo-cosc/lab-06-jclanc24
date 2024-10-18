@@ -102,7 +102,7 @@ sorted_random_characters = dict(sorted(random_characters.items())) #new dictiona
 print("*"*75)
 
 
-most_random_letter = None
+most_random_letter = None #initalizes a variable to hold "no" data so that it is not an empty string or 0 or False.
 most_letter_mode = 0 #initalizes count
 
 # Output which letter occurred the most 
@@ -140,4 +140,6 @@ print("Character Frequency: ")
 for key, value in sorted_random_characters.items():
     val_percent = (value / random_string_length) * 100
     print(f"{key} : {val_percent:.2f}%")
+
+    
 print("*"*75)
